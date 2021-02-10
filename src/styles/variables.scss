@@ -1,0 +1,15 @@
+$size-width: 100px;
+$size-height: 100px;
+$margin-between: 1px;
+$color: #eee;
+$font: arial, helvetica, sans-serif;
+$font-size: 30px;
+$week: 7;
+$date-disappear: 1, 2, 3, 4, 5,
+  6, 7, 8, 9, 10,
+  11, 12, 13, 14,
+  15, 16, 17, 18,
+  19, 20, 21, 22,
+  23, 24, 25, 26,
+  27, 28, 29, 30;
+$days: ("mon": 0, "tue": 1, "wed": 2, "thu": 3, "fri": 4, "sat": 5, "sun": 6);
