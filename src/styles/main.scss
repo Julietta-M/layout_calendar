@@ -23,18 +23,19 @@ body {
 }
 
 .calendar > div {
+  display: flex;
+  justify-content: center;
+  line-height: $size-height;
   height: $size-height;
   width: $size-width;
   border: 1px solid black;
   background-color: $color;
+  transition: transform, 0.5s;
 }
 
 @for $i from 1 through 31 {
   .calendar > div:nth-child(#{$i}):before {
     content: "#{$i}";
-    display: flex;
-    justify-content: center;
-    line-height: $size-height;
   }
 }
 
@@ -54,5 +55,4 @@ body {
   background-color: pink;
   cursor: pointer;
   transform: translate(0, -20px);
-  transition: transform, 0.5s;
 }
